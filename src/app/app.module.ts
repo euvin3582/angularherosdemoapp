@@ -1,3 +1,4 @@
+import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
@@ -18,7 +19,8 @@ import { ProductListComponent } from './product-list/product-list.component';
   declarations: [
     AppComponent,
     TopBarComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProductAlertsComponent
   ],
   bootstrap: [ AppComponent ]
 })
